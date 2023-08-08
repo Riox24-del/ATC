@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_publicaciones"
+        android:icon="@drawable/newspaper"
+        android:title="@string/title_publi" />
+
+    <item
+        android:id="@+id/navigation_usuariosLista"
+        android:icon="@drawable/user"
+        android:title="@string/title_users" />
+
+    <item
+        android:id="@+id/navigation_addContactos"
+        android:icon="@drawable/adduser"
+        android:title="@string/title_contacs" />
+
+    <item
+        android:id="@+id/navigation_mapa"
+        android:icon="@drawable/map"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_cerrarSesion"
+        android:icon="@drawable/logout"
+        android:title="@string/title_logout" />
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation"
+    app:startDestination="@+id/navigation_publicaciones">
+
+
+    <fragment
+        android:id="@+id/navigation_publicaciones"
+        android:name="ac.eq.atc.ui.admin.adminPubliFragment"
+        android:label="@string/title_publi"
+        tools:layout="@layout/fragment_admin_publi" />
+
+    <fragment
+        android:id="@+id/navigation_usuariosLista"
+        android:name="ac.eq.atc.ui.listaUsers.ListaUsersFragment"
+        android:label="@string/title_users"
+        tools:layout="@layout/fragment_lista_users" />
+
+    <fragment
+        android:id="@+id/navigation_addContactos"
+        android:name="ac.eq.atc.ui.Contactos.contactosFragment"
+        android:label="@string/title_contacs"
+        tools:layout="@layout/fragment_contactos" />
+
+    <fragment
+        android:id="@+id/navigation_mapa"
+        android:name="ac.eq.atc.ui.mapa.MapaFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_mapa" />
+</navigation>

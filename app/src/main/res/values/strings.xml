@@ -1,0 +1,38 @@
+<resources>
+    <!--user-->
+    <string name="app_name">ATC</string>
+    <string name="title_home">Noticias</string>
+    <string name="title_dashboard">Alerta</string>
+    <string name="title_notifications">Contactos</string>
+    <string name="title_user">Usuario</string>
+<!--admin-->
+    <string name="title_publi">Agregar publicaciones</string>
+    <string name="title_users">Lista de usuarios</string>
+    <string name="title_contacs">Agregar contactos</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_logout">Cerrar sesión</string>
+
+
+
+    <string name="policia_mun">Policia Municipal</string>
+    <string name="numero_policia">xxx-xxxx-xxx</string>
+
+    <string name="bomberos_oax">Bomberos de Oaxaca</string>
+    <string name="numero_bomberos">xxx-xxxx-xxx</string>
+
+    <string name="emergencias">Emergencias</string>
+    <string name="numero_emergencia">xxx-xxxx-xxx</string>
+
+
+    <string name="policia_estatal">Policia Estatal</string>
+    <string name="numero_poliesta">xxx-xxxx-xxx</string>
+    <string name="presioname">Presioname si necesitas ayuda</string>
+    <string name="title_activity_splash">splash</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="atencion_ciudadana">Atención Ciudadana</string>
+
+</resources>
